@@ -1,0 +1,12 @@
+[package]
+name = "cli-news"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ureq = "2.4.0"
+serde_json = "1.0.73"
+serde = { version = "1.0.132", features = ["derive"] }
+colour = "0.6.0"
